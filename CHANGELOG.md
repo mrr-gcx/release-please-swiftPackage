@@ -4,6 +4,18 @@
 
 [1]: https://www.npmjs.com/package/release-please?activeTab=versions
 
+## [16.13.0](https://github.com/mrr-gcx/release-please-swiftPackage/compare/v16.12.0...v16.13.0) (2024-08-26)
+
+
+### Features
+
+* adds swift package strategy ([8c5768a](https://github.com/mrr-gcx/release-please-swiftPackage/commit/8c5768acd276f4f714015776f3984df071ebd6cb))
+
+
+### Bug Fixes
+
+* fixes vulnerabilities ([6b0893a](https://github.com/mrr-gcx/release-please-swiftPackage/commit/6b0893adb07efcc736c8057054de1520cca878d5))
+
 ## [16.12.0](https://github.com/googleapis/release-please/compare/v16.11.0...v16.12.0) (2024-06-06)
 
 
