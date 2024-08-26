@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let version = "16.12.0"
+let version = "16.13.0"
 
 let package = Package(
     name: "DeckOfPlayingCards",
