@@ -41,7 +41,8 @@ import {RubyYoshi} from './strategies/ruby-yoshi';
 import {Rust} from './strategies/rust';
 import {Sfdx} from './strategies/sfdx';
 import {Simple} from './strategies/simple';
-import {TerraformModule} from './strategies/terraform-module';
+import {TerraformModule} from './strategies/terraform-module'
+import {SwiftPackage} from './strategies/swift-package';
 import {Strategy} from './strategy';
 import {AlwaysBumpPatch} from './versioning-strategies/always-bump-patch';
 import {DependencyManifest} from './versioning-strategies/dependency-manifest';
@@ -105,6 +106,7 @@ const releasers: Record<string, ReleaseBuilder> = {
   sfdx: options => new Sfdx(options),
   simple: options => new Simple(options),
   'terraform-module': options => new TerraformModule(options),
+  'swift-package': options => new SwiftPackage(options),
   helm: options => new Helm(options),
   elixir: options => new Elixir(options),
   dart: options => new Dart(options),
